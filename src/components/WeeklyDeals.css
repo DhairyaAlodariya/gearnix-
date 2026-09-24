@@ -1,0 +1,304 @@
+/* ========================= WEEKLY DEALS COUNTDOWN ========================= */
+.section-countdown-weekly {
+    position: relative;
+    background: transparent;
+    overflow: hidden;
+}
+
+.section-countdown-weekly .distance {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background: #1e1e20;
+}
+
+.section-countdown-weekly .ss-bg {
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-50%);
+    left: 0;
+    background: #17171a no-repeat center center;
+    background-size: cover;
+    border-radius: 0;
+    --bg-gradient: linear-gradient(90deg, rgba(162, 199, 84, 1), rgba(199, 84, 84, 1) 30%, rgba(148, 84, 199, 1) 70%, rgba(84, 178, 199, 1) 100%, rgba(215, 204, 250, 1) 100%);
+    --bg-gradient-time: 15s;
+}
+
+.section-countdown-weekly .ss-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: var(--bg-gradient);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.18;
+}
+
+.section-countdown-weekly .container-inner {
+    position: relative;
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.section-countdown-weekly .countdown-content,
+.section-countdown-weekly .text-left {
+    text-align: left;
+}
+
+.section-countdown-weekly .countdown-content {
+    padding: 22px 0;
+}
+
+.section-countdown-weekly .title_section.text-left,
+.section-countdown-weekly .title_section.text-left .title,
+.section-countdown-weekly .title_section.text-left .sub_title {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+.section-countdown-weekly .title_section.text-left .title {
+    color: #ffffff;
+    font-family: var(--font-family-primary);
+    font-size: var(--section-heading-font-size);
+    font-weight: 700;
+    line-height: 1.05;
+    max-width: none;
+}
+
+.section-countdown-weekly .title_section.text-left .sub_title p {
+    margin: 0;
+    color: #ffffff;
+    max-width: 470px;
+    font-size: clamp(1.8rem, 1.25vw, 2.6rem);
+    line-height: 1.4;
+}
+
+.section-countdown-weekly .countdownfree {
+    gap: 14px;
+    flex-wrap: wrap;
+    box-shadow: none !important;
+}
+
+.section-countdown-weekly .item-time {
+    width: 84px;
+    min-height: 86px;
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 12px 28px rgba(6, 8, 16, 0.35);
+}
+
+.section-countdown-weekly .item-time .data-number {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .02em;
+    background: linear-gradient(180deg, rgba(210, 83, 255, 1), rgba(255, 77, 169, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.section-countdown-weekly .item-time .name-time {
+    margin-top: 7px;
+    font-family: var(--font-family-default);
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #e355d7;
+}
+
+.section-countdown-weekly .countdown-action {
+    margin-top: 30px;
+}
+
+.section-countdown-weekly .countdown-content .btn {
+    position: relative;
+    overflow: hidden;
+    min-width: unset;
+    height: 40px;
+    padding: 0 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: 0;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #b53dff 0%, #ff4da9 100%);
+    box-shadow: none;
+    color: #ffffff;
+    font-family: var(--font-family-default);
+    font-size: 1.4rem;
+    font-weight: var(--button-font-weight);
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity .2s, transform .2s;
+    cursor: pointer;
+}
+
+.section-countdown-weekly .countdown-content .btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #8d2ed6 0%, #d63f92 100%);
+    opacity: 1;
+    transition: opacity .3s, background .3s;
+}
+
+.section-countdown-weekly .countdown-content .btn span,
+.section-countdown-weekly .countdown-content .btn .rbb-icon-direction-55 {
+    position: relative;
+    z-index: 1;
+}
+
+.section-countdown-weekly .countdown-content .btn:hover::before {
+    opacity: 1;
+    background: linear-gradient(90deg, #d63f92 0%, #8d2ed6 100%);
+}
+
+.section-countdown-weekly .countdown-content .rbb-icon-direction-55 {
+    font-size: 1.2rem;
+    line-height: 1;
+    transition: transform .3s;
+    display: inline-block;
+}
+
+.section-countdown-weekly .countdown-content .rbb-icon-direction-55::before {
+    content: "\2192";
+}
+
+.section-countdown-weekly .countdown-content .btn:hover .rbb-icon-direction-55 {
+    transform: translate(2px, -1px);
+}
+
+.section-countdown-weekly .countdown-content .btn:hover .rbb-icon-direction-55::before {
+    content: "\2197";
+}
+
+.section-countdown-weekly .img-right {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-countdown-weekly .img-right img {
+    width: min(100%, 860px);
+    height: auto;
+    display: block;
+    max-width: 860px;
+    margin-left: auto;
+    transform: scale(1);
+    transition: all 1.5s ease-out;
+}
+
+.section-countdown-weekly .img-right:hover:not(.no-sh-xs) img {
+    transform: scale(1.07);
+}
+
+@media (max-width: 575.98px) {
+    .section-countdown-weekly .ss-bg {
+        top: 0;
+        height: 100%;
+        transform: none;
+    }
+
+    .section-countdown-weekly .countdown-content,
+    .section-countdown-weekly .text-left,
+    .section-countdown-weekly .title_section.text-left,
+    .section-countdown-weekly .title_section.text-left .title,
+    .section-countdown-weekly .title_section.text-left .sub_title {
+        text-align: center;
+    }
+
+    .section-countdown-weekly .title_section.text-left .sub_title p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-countdown-weekly .countdownfree {
+        justify-content: center;
+    }
+
+    .section-countdown-weekly .countdown-action {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-countdown-weekly .img-right {
+        margin-top: 26px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section-countdown-weekly .ss-bg {
+        top: 0;
+        height: 100%;
+        transform: none;
+    }
+
+    .section-countdown-weekly .img-right {
+        margin-top: 26px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-countdown-weekly .ss-bg {
+        top: 0;
+        height: 100%;
+        transform: none;
+    }
+
+    .section-countdown-weekly .distance {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .section-countdown-weekly .ss-bg {
+        height: 70%;
+    }
+
+    .section-countdown-weekly .countdown-action {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-countdown-weekly .distance {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .section-countdown-weekly .ss-bg {
+        height: 66%;
+    }
+}
+
+@media (min-width: 1441px) {
+    .section-countdown-weekly .ss-bg {
+        height: 58%;
+    }
+
+    .section-countdown-weekly .img-right img {
+        width: min(100%, 900px);
+        max-width: 900px;
+    }
+}
+

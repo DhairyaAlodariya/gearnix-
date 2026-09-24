@@ -1,4 +1,5 @@
 import React from 'react'
+import './BlogSection.css'
 const posts=[
   {img:'/images/IMG_9-min_802x604_crop_center.webp',alt:'RGB gaming mouse setup',title:'Level Up Your Setup Essential Gear for Competitive Gaming'},
   {img:'/images/IMG_8-min_802x604_crop_center.webp',alt:'Gaming headset on keyboard',title:'Ultimate Guide to Choosing the Best Gaming Gear for Every Gamer'},

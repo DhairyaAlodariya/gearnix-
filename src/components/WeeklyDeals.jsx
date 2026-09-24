@@ -1,4 +1,5 @@
 import React from 'react'
+import './WeeklyDeals.css'
 export default function WeeklyDeals() {
   return (
     <section className="section-countdown-weekly"><div className="distance position-relative">

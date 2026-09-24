@@ -1,4 +1,5 @@
 import React from 'react'
+import './TopRatedProducts.css'
 const products=[
   {title:'Phantom Elite Headset Pro',img:'/images/6_ffe55de6-1256-45b9-bca0-00f85957e64d_540x.webp',imgAlt:'/images/3_fb5a9e0b-2263-43eb-b897-afd1614451dd_540x.webp',price:'$192.00',ratingClass:'top-rated-rating--muted'},
   {title:'Galaxy Striker',img:'/images/2_3eb15383-0ff8-49c5-9fd5-bc75385bccfa_540x.webp',imgAlt:'/images/5_760423b4-94cc-4aaf-9c22-84dd3fec331a_540x.webp',price:'$165.00',ratingClass:'top-rated-rating--filled'},

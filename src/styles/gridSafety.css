@@ -1,0 +1,133 @@
+/* ========================= SECTION GRID SAFETY ========================= */
+@media (min-width: 768px) {
+    .section-policy .col-md-6,
+    .section-slider-image .col-md-6,
+    .section-product-slider .col-md-6,
+    .section-countdown-weekly .col-md-6,
+    .section-image-split .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .section-slider-image .col-lg-3,
+    .section-product-slider .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+        width: 25%;
+    }
+
+    .section-countdown-weekly .col-lg-5 {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+        width: 41.666667%;
+    }
+
+    .section-countdown-weekly .col-lg-7 {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+        width: 58.333333%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .section-policy .col-xl-3,
+    .section-slider-image .col-xl-3,
+    .section-product-slider .col-xl-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+        width: 25%;
+    }
+
+    .section-countdown-weekly .col-xl-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        width: 33.333333%;
+    }
+
+    .section-countdown-weekly .col-xl-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        width: 66.666667%;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .section-slider-image .col-6,
+    .section-product-slider .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 50%;
+    }
+
+    .section-policy .col-12,
+    .section-image-split .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-new-arrivals .arrival-card {
+        padding: 1.8rem 1.3rem 2rem;
+        border-radius: 26px;
+        background: #302d36;
+        box-shadow: none;
+    }
+
+    .section-new-arrivals .arrival-card__actions {
+        display: none !important;
+    }
+
+    .section-new-arrivals .arrival-card__media {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .section-new-arrivals .arrival-card__title {
+        min-height: 4.6rem;
+        font-size: 1.55rem;
+        line-height: 1.35;
+        margin-bottom: 16px;
+    }
+
+    .section-new-arrivals .arrival-card__rating {
+        margin-bottom: 16px;
+        font-size: 1.9rem;
+    }
+
+    .section-new-arrivals .arrival-card__rating span {
+        color: #cfcfd4;
+        letter-spacing: 1px;
+    }
+
+    .section-new-arrivals .arrival-card__price {
+        font-size: 1.55rem;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .section-new-arrivals .arrival-card {
+        background: #302d36;
+        box-shadow: none;
+    }
+
+    .section-new-arrivals .arrival-card__actions {
+        display: none !important;
+    }
+
+    .section-new-arrivals .arrival-card__title {
+        line-height: 1.35;
+    }
+
+    .section-new-arrivals .arrival-card__rating span {
+        color: #cfcfd4;
+    }
+}

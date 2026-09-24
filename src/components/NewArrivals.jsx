@@ -1,4 +1,5 @@
 import React from 'react'
+import './NewArrivals.css'
 export default function NewArrivals() {
   return (
     <section className="section-new-arrivals" aria-labelledby="new-arrivals-title"><div className="distance"><div className="container-fluid"><div className="new-arrivals-shell">

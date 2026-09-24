@@ -1,4 +1,5 @@
 import React from 'react'
+import './FeaturedProduct.css'
 export default function FeaturedProduct() {
   return (
     <section className="section-featured-product overflow_hidden"><div className="wow fadeInUp"><div className="container-fluid"><div className="container-inner distance position-relative"><div className="row">

@@ -1,4 +1,5 @@
 import React from 'react'
+import './VideoSection.css'
 export default function VideoSection() {
   return (
     <section className="section-video"><div className="distance"><div className="container-full">

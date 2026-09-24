@@ -1,0 +1,136 @@
+/* ========================= BASE RESET ========================= */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+img,
+tr {
+    page-break-inside: avoid;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html {
+    font-size: 57%;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family-default, sans-serif);
+    color: var(--color-text);
+    text-align: left;
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+    font-style: var(--body-font-style);
+    line-height: var(--body-font-line-height);
+    background-color: #1e1e20;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: none;
+}
+
+.template-index {
+    background-color: #1e1e20;
+}
+
+.template-top-gradient {
+    --bg-gradient: linear-gradient(90deg, rgba(162, 199, 84, 1), rgba(199, 84, 84, 1) 30%, rgba(148, 84, 199, 1) 70%, rgba(84, 178, 199, 1) 100%);
+    --bg-gradient-time: 15s;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.template-top-gradient::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    aspect-ratio: 1 / 0.196;
+    background: var(--bg-gradient);
+    border-radius: 100%;
+    filter: blur(54px);
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: 0;
+}
+
+body > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Ensure header sits above hero and receives hover/cursor events */
+.shopify-section-group-header-group {
+    position: relative;
+    z-index: 50;
+    pointer-events: auto;
+}
+
+.section-slideshow {
+    position: relative;
+    z-index: 1;
+}
+
+.gradient-animate {
+    background-size: 400% 400% !important;
+    -webkit-animation: BgGradient linear infinite;
+    animation: BgGradient linear infinite;
+    -webkit-animation-duration: var(--bg-gradient-time);
+    animation-duration: var(--bg-gradient-time);
+}
+
+.gradient-animate::before {
+    background-size: 400% 400% !important;
+    -webkit-animation: BgGradient linear infinite;
+    animation: BgGradient linear infinite;
+    -webkit-animation-duration: var(--bg-gradient-time);
+    animation-duration: var(--bg-gradient-time);
+}
+
+@keyframes BgGradient {
+    0% { background-position-x: 0%; background-position-y: 50%; }
+    50% { background-position-x: 100%; background-position-y: 50%; }
+    100% { background-position-x: 0%; background-position-y: 50%; }
+}
+

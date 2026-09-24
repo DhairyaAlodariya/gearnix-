@@ -1,0 +1,208 @@
+/* ========================= VIDEO SECTION ========================= */
+.section-video {
+    overflow: hidden;
+    background: transparent;
+    --color-button: #ffffff;
+    --color-button-text: #ff4da9;
+    --color-button-border: #ffffff;
+    --color-button-hover: #ff2f9a;
+    --color-button-text-hover: #ffffff;
+    --color-button-border-hover: #ff2f9a;
+}
+
+.section-video .distance {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: clamp(0px, 0px, 15px);
+    padding-right: clamp(0px, 0px, 15px);
+}
+
+.section-video .item {
+    position: relative;
+    isolation: isolate;
+    height: 400px !important;
+    clip-path: content-box;
+}
+
+.section-video .youtube {
+    border-radius: 0;
+    overflow: hidden;
+    transform: translateZ(0);
+}
+
+.section-video .youtube::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+
+.section-video video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+    display: block;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity .4s ease;
+}
+
+.section-video .item.is-playing video {
+    opacity: 1;
+}
+
+.section-video .bg-video__cover.lazyloaded {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background: url("../images/img-1-10.jpg") center;
+    background-size: cover;
+    opacity: 1;
+    transition: opacity .4s ease;
+}
+
+.section-video .item.is-playing .bg-video__cover.lazyloaded {
+    opacity: 0;
+}
+
+.section-video .block-text {
+    inset: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+.section-video .block-1.text {
+    color: #ffffff;
+    font-family: var(--font-family-primary) !important;
+    font-size: 4rem;
+    line-height: 1.25;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    max-width: 1700px;
+    margin: 0 auto 15px;
+    text-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+    font-weight: 700;
+}
+
+.section-video .block-2.text {
+    color: #ffffff;
+    font-family: var(--font-family-default);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-transform: none;
+    max-width: 1320px;
+    margin: 0 auto 32px;
+    text-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+}
+
+.section-video .block-1.text p,
+.section-video .block-2.text p {
+    margin: 0;
+}
+
+.section-video .btn-video__play {
+    width: 67px;
+    height: 67px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 40px;
+    position: relative;
+    animation: boxshadow 1.5s ease-in-out infinite;
+    margin: auto;
+    color: var(--color-button-text);
+    background: var(--color-button);
+    border: var(--button-thickness) solid var(--color-button-border);
+    box-shadow: rgba(255, 255, 255, 0.28) 0 0 0 0;
+    padding-left: 3px;
+    transition: color .25s ease, background-color .25s ease, border-color .25s ease;
+}
+
+.section-video .btn-video__play:hover {
+    color: #ffffff;
+    background-color: var(--color-button-hover);
+    border-color: var(--color-button-border-hover);
+}
+
+.section-video .btn-video__play svg {
+    width: 11px;
+    height: 14px;
+}
+
+@keyframes boxshadow {
+    0% {
+        box-shadow: rgba(255, 255, 255, 0.28) 0 0 0 0;
+    }
+
+    70% {
+        box-shadow: rgba(255, 255, 255, 0) 0 0 0 9px;
+    }
+
+    100% {
+        box-shadow: rgba(255, 255, 255, 0) 0 0 0 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-video .block-1.text {
+        font-size: clamp(2.4rem, 5.2vw, 3.4rem);
+        line-height: 1.3;
+    }
+
+    .section-video .block-2.text {
+        font-size: clamp(1.2rem, 2.7vw, 1.8rem);
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-video .distance {
+        padding-top: 30px;
+        padding-bottom: 70px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .section-video .item {
+        height: 500px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-video .distance {
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .section-video .item {
+        height: 600px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-video .block-1.text,
+    .section-video .block-2.text {
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 1441px) {
+    .section-video .item {
+        height: 800px !important;
+    }
+}
+

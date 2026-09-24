@@ -1,4 +1,5 @@
 import React from 'react'
+import './PolicySection.css'
 const policies=[
   {icon:'/images/p-1-1_200x.avif',alt:'Free shipping icon',title:'Free Shipping',desc:'Free Shipping to Make Your Shopping Experience Seamless.'},
   {icon:'/images/p-1-2_200x.webp',alt:'Return policy icon',title:'Return Policy',desc:'Flexible Returns to Ensure a Positive Shopping Experience.'},

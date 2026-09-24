@@ -1,4 +1,5 @@
 import React from 'react'
+import './CustomerReviews.css'
 const reviews=[
   {img:'/images/img-1-13.webp',name:'Earl S. West',quote:'" I was skeptical at first, but the gaming mouse controller has become an indispensable part of my gaming setup. "',cap:'cap-1',active:true},
   {img:'/images/img-1-12.webp',name:'Timothy A. Thompson',quote:'" The headphones deliver incredible sound quality and noise cancellation that makes my streams. Highly recommended! "',cap:'cap-2',active:false},

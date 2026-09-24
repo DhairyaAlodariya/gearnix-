@@ -1,4 +1,5 @@
 import React from 'react'
+import './ImageGroup.css'
 export default function ImageGroup() {
   return (
     <section className="section-img-group"><div className="distance"><div className="container-fluid"><div className="img-group-row">

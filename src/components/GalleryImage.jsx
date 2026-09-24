@@ -1,4 +1,5 @@
 import React from 'react'
+import './GalleryImage.css'
 export default function GalleryImage() {
   return (
     <section className="section-gallery-image"><div className="distance"><div className="container-fluid"><div className="gallery-grid">

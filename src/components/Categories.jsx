@@ -1,4 +1,5 @@
 import React from 'react'
+import './Categories.css'
 const cats=[
   {img:'/images/img-1-3_580x.webp',label:'Keyboards',aria:'Shop keyboards',block:'block-1'},
   {img:'/images/img-1-4_580x.webp',label:'Gaming Mouse',aria:'Shop gaming mouse',block:'block-2'},
