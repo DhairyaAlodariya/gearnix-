@@ -1,75 +1,74 @@
 /* ========================= SECTION UTILITIES ========================= */
 .title_section .title {
-    font-family: var(--font-family-primary);
-    font-style: var(--heading-font-style);
-    font-size: var(--section-heading-font-size);
-    font-weight: var(--section-heading-font-weight);
-    max-width: 770px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  font-family: var(--font-family-primary);
+  font-style: var(--heading-font-style);
+  font-size: var(--section-heading-font-size);
+  font-weight: var(--section-heading-font-weight);
+  max-width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .title_section .sub_title {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .f_pr {
-    font-family: var(--font-family-primary);
+  font-family: var(--font-family-primary);
 }
 
 .f_df {
-    font-family: var(--font-family-default);
+  font-family: var(--font-family-default);
 }
 
 .font-300 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .font-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .font-500 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .font-600 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .font-700 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .mt-10 {
-    margin-top: 10px !important;
+  margin-top: 10px !important;
 }
 
 .mt-15 {
-    margin-top: 15px !important;
+  margin-top: 15px !important;
 }
 
 .mt-20 {
-    margin-top: 20px !important;
+  margin-top: 20px !important;
 }
 
 .mt-25 {
-    margin-top: 25px !important;
+  margin-top: 25px !important;
 }
 
 .mb-15 {
-    margin-bottom: 15px !important;
+  margin-bottom: 15px !important;
 }
 
 .mb-30 {
-    margin-bottom: 30px !important;
+  margin-bottom: 30px !important;
 }
 
 .spacing-30 {
-    --bs-gutter-x: 3rem;
-    --bs-gutter-y: 3rem;
+  --bs-gutter-x: 3rem;
+  --bs-gutter-y: 3rem;
 }
-

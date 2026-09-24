@@ -1,174 +1,173 @@
 /* ========================= CATEGORIES SECTION ========================= */
 .section-slider-image {
-    background: transparent;
-    --section-heading-font-size: clamp(3.2rem, 3.9vw, 5.2rem);
+  background: transparent;
+  --section-heading-font-size: clamp(3.2rem, 3.9vw, 5.2rem);
 }
 
 .section-slider-image .distance {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 0;
-    padding-right: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .section-slider-image .title_section {
-    margin-bottom: clamp(2.6rem, 3.4vw, 5.4rem);
+  margin-bottom: clamp(2.6rem, 3.4vw, 5.4rem);
 }
 
 .section-slider-image .title_section .title {
-    margin-left: auto;
-    margin-right: auto;
-    color: #ffffff;
-    line-height: 1;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  line-height: 1;
 }
 
 .section-slider-image .title_section .title p {
-    margin: 0;
-    color: inherit;
-    font: inherit;
-    letter-spacing: 0.03em;
-    line-height: inherit;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: 0.03em;
+  line-height: inherit;
 }
 
 .section-slider-image .categories-grid {
-    --bs-gutter-x: 3rem;
-    --bs-gutter-y: 3rem;
+  --bs-gutter-x: 3rem;
+  --bs-gutter-y: 3rem;
 }
 
 .section-slider-image .image-slider__item {
-    border-radius: 24px;
-    overflow: hidden;
-    background: #11131d;
-    min-height: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #11131d;
+  min-height: 100%;
 }
 
 .section-slider-image .image-slider__item::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    background: linear-gradient(180deg, rgba(10, 11, 18, 0) 42%, rgba(10, 11, 18, 0.82) 100%);
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(10, 11, 18, 0) 42%, rgba(10, 11, 18, 0.82) 100%);
 }
 
 .section-slider-image .image-slider__link {
-    display: block;
-    text-decoration: none;
+  display: block;
+  text-decoration: none;
 }
 
 .section-slider-image .respone_image {
-    position: relative;
-    padding-top: 76.190476%;
+  position: relative;
+  padding-top: 76.190476%;
 }
 
 .section-slider-image .respone_image img {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    transform: scale(1);
-    transition: transform 1.5s ease-out;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 1.5s ease-out;
 }
 
 .section-slider-image .image-slider__item:hover .respone_image img {
-    transform: scale(1.07);
+  transform: scale(1.07);
 }
 
 .section-slider-image .bl_t {
-    left: 3rem;
-    right: 2rem;
-    bottom: 2.6rem;
-    z-index: 2;
+  left: 3rem;
+  right: 2rem;
+  bottom: 2.6rem;
+  z-index: 2;
 }
 
 .section-slider-image .bl_t .title {
-    margin: 0 0 1rem;
-    color: #ffffff;
-    font-size: 1.8rem;
-    line-height: 1.28;
+  margin: 0 0 1rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 1.28;
 }
 
 .section-slider-image .btn-shopnow {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-    line-height: 1.2;
-    font-size: 1.6rem;
-    font-weight: 500;
-    background: linear-gradient(89deg, rgba(210, 83, 255, 1), rgba(255, 77, 169, 1) 52%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background: linear-gradient(89deg, rgba(210, 83, 255, 1), rgba(255, 77, 169, 1) 52%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .section-slider-image .btn-shopnow i {
-    margin-left: 10px;
-    font-size: 1.4rem;
-    line-height: 1;
-    font-style: normal;
-    display: inline-flex;
-    align-items: center;
-    transition: margin .3s linear;
+  margin-left: 10px;
+  font-size: 1.4rem;
+  line-height: 1;
+  font-style: normal;
+  display: inline-flex;
+  align-items: center;
+  transition: margin 0.3s linear;
 }
 
 .section-slider-image .btn-shopnow i::before {
-    content: "\2192";
+  content: '\2192';
 }
 
 .section-slider-image .btn-shopnow:hover i {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 @media (min-width: 768px) {
-    .section-slider-image .distance {
-        padding-bottom: 70px;
-    }
+  .section-slider-image .distance {
+    padding-bottom: 70px;
+  }
 }
 
 @media (min-width: 1200px) {
-    .section-slider-image .distance {
-        padding-bottom: 110px;
-    }
+  .section-slider-image .distance {
+    padding-bottom: 110px;
+  }
 }
 
 @media (min-width: 1441px) {
-    .section-slider-image .container-fluid {
-        padding-left: var(--container-fluid);
-        padding-right: var(--container-fluid);
-    }
+  .section-slider-image .container-fluid {
+    padding-left: var(--container-fluid);
+    padding-right: var(--container-fluid);
+  }
 }
 
 @media (max-width: 991.98px) {
-    .section-slider-image .bl_t {
-        left: 1.6rem;
-        right: 1.2rem;
-        bottom: 1.6rem;
-    }
+  .section-slider-image .bl_t {
+    left: 1.6rem;
+    right: 1.2rem;
+    bottom: 1.6rem;
+  }
 
-    .section-slider-image .bl_t .title {
-        font-size: 1.4rem;
-        margin-bottom: .9rem;
-    }
+  .section-slider-image .bl_t .title {
+    font-size: 1.4rem;
+    margin-bottom: 0.9rem;
+  }
 
-    .section-slider-image .btn-shopnow {
-        font-size: 1.3rem;
-    }
+  .section-slider-image .btn-shopnow {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 575.98px) {
-    .section-slider-image {
-        --section-heading-font-size: clamp(2.4rem, 6.2vw, 3.2rem);
-    }
+  .section-slider-image {
+    --section-heading-font-size: clamp(2.4rem, 6.2vw, 3.2rem);
+  }
 
-    .section-slider-image .bl_t .title {
-        font-size: 1.3rem;
-    }
+  .section-slider-image .bl_t .title {
+    font-size: 1.3rem;
+  }
 
-    .section-slider-image .btn-shopnow {
-        font-size: 1.2rem;
-    }
+  .section-slider-image .btn-shopnow {
+    font-size: 1.2rem;
+  }
 }
-

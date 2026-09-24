@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
+    "format": "prettier --write \"src/**/*.{jsx,js,css,json}\"",
     "preview": "vite preview"
   },
   "dependencies": {

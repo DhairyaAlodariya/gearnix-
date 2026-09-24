@@ -1,45 +1,45 @@
 /* ========================= THEME VARIABLES ========================= */
 :root {
-    /* Colors */
-    --color-background: #ffffff;
-    --color-title: #1c1c1c;
-    --color-sub-title: #535353;
-    --color-text: #434343;
-    --color-link: #1c1c1c;
-    --color-hover: #ff4da9;
-    --color-border: #e5e5e5;
-    --color-icons: #1c1c1c;
-    --color-border-rgb: 229, 229, 229;
-    --color-button: #1c1c1c;
-    --color-button-text: #ffffff;
-    --color-secondary-button-text: #1c1c1c;
-    --color-secondary-button-border: #ededed;
+  /* Colors */
+  --color-background: #ffffff;
+  --color-title: #1c1c1c;
+  --color-sub-title: #535353;
+  --color-text: #434343;
+  --color-link: #1c1c1c;
+  --color-hover: #ff4da9;
+  --color-border: #e5e5e5;
+  --color-icons: #1c1c1c;
+  --color-border-rgb: 229, 229, 229;
+  --color-button: #1c1c1c;
+  --color-button-text: #ffffff;
+  --color-secondary-button-text: #1c1c1c;
+  --color-secondary-button-border: #ededed;
 
-    /* Typography */
-    --font-family-primary: Orbitron;
-    --font-family-default: Poppins;
-    --body-font-size: 1.4rem;
-    --body-font-weight: 400;
-    --body-font-style: normal;
-    --body-font-line-height: 1.5;
-    --heading-font-style: normal;
-    --section-heading-font-size: 4rem;
-    --section-heading-font-weight: 600;
-    --section-subheading-font-size: 1.6rem;
-    --section-subheading-font-weight: 400;
+  /* Typography */
+  --font-family-primary: Orbitron;
+  --font-family-default: Poppins;
+  --body-font-size: 1.4rem;
+  --body-font-weight: 400;
+  --body-font-style: normal;
+  --body-font-line-height: 1.5;
+  --heading-font-style: normal;
+  --section-heading-font-size: 4rem;
+  --section-heading-font-weight: 600;
+  --section-subheading-font-size: 1.6rem;
+  --section-subheading-font-weight: 400;
 
-    /* Layout */
-    --container: 1440px;
-    --container-fluid: 75px;
+  /* Layout */
+  --container: 1440px;
+  --container-fluid: 75px;
 
-    /* Buttons */
-    --button-thickness: 2px;
-    --button-corner: 50px;
-    --button-normal-width: 125px;
-    --button-normal-height: 51px;
-    --button-font-size: 1.4rem;
-    --button-font-weight: 600;
+  /* Buttons */
+  --button-thickness: 2px;
+  --button-corner: 50px;
+  --button-normal-width: 125px;
+  --button-normal-height: 51px;
+  --button-font-size: 1.4rem;
+  --button-font-weight: 600;
 
-    /* Effects */
-    --bg-gradient-time: 25s;
+  /* Effects */
+  --bg-gradient-time: 25s;
 }
