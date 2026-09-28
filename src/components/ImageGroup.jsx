@@ -1,4 +1,3 @@
-import React from 'react';
 import './ImageGroup.css';
 export default function ImageGroup() {
   return (

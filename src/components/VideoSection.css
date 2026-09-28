@@ -61,7 +61,7 @@
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background: url('../images/img-1-10.jpg') center;
+  background: url('/images/img-1-10.jpg') center;
   background-size: cover;
   opacity: 1;
   transition: opacity 0.4s ease;

@@ -1,4 +1,3 @@
-import React from 'react';
 import './GalleryImage.css';
 export default function GalleryImage() {
   return (

@@ -1,4 +1,3 @@
-import React from 'react';
 export default function MobileNav() {
   return (
     <nav className="mobile-nav" id="mobileNav" aria-label="Mobile navigation" aria-hidden="true">

@@ -1,4 +1,3 @@
-import React from 'react';
 import './HeroSlideshow.css';
 export default function HeroSlideshow() {
   return (
