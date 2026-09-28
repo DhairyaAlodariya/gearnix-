@@ -28,3 +28,9 @@ dist-ssr
 .agents/
 .antigravity/
 *.gemini
+
+# Python temp libraries & large binaries
+.tmp_pylibs/
+*.exe
+*.dll
+*.so
